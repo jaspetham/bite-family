@@ -1,0 +1,124 @@
+.nav {
+    padding: 0 1rem;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: grid;
+    height: 95px;
+    grid-template-columns: 80px 1fr 150px;
+    gap: 1rem;
+    font-size: var(--fs-100);
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background .5s ease;
+}
+.nav .nav-link,.nav .icon{
+    color:white!important;
+}
+:is(.nav.scrolled){
+    background:white;
+}
+:is(.nav.scrolled) :is(.nav-link, .icon){
+    color:var(--color-text)!important;
+}
+.imgBrand {
+    width: 80px;
+    height: 80px;
+}
+
+.navWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks,
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.socials .nav-link{
+    padding:0 .75rem;
+}
+.navLinks .nav-link{
+    opacity: .6;
+}
+.navLinks .nav-link:hover,.navLinks .nav-link.active{
+    opacity: 1;
+}
+.icon {
+    font-size: var(--fs-300);
+}
+.navLinks {
+    gap: 2rem;
+}
+
+.burgerWrap {
+    display: none;
+}
+
+@media only screen and (max-width:880px) {
+    .socials {
+        display: none;
+    }
+
+    .burgerWrap {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        grid-column: span 2;
+        position: relative;
+        z-index: 1;
+    }
+
+    .burger {
+        display: inline-block;
+        cursor: pointer;        
+    }
+
+    .burger :is(.bar1,.bar2,.bar3){
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .burger.change .bar1{
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+    
+    .burger.change .bar2 {
+        opacity: 0;
+    }
+    
+    .burger.change .bar3 {
+        transform: translate(0, -11px) rotate(45deg);
+    }
+
+    .navWrap {
+        position: absolute;
+        right: -100%;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        backdrop-filter: blur(12px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: right .5s ease-in;
+    }
+
+    .navWrap.open{
+        right: 0;
+    }
+
+    .navLinks {
+        flex-direction: column;
+    }
+}

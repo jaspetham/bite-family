@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+dl,
+ol,
+ul {
+    margin-top: 0!important;
+    margin-bottom: inherit!important;
+    padding-left: 0!important;
+}
+.bgImgCover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+:root {
+    --color-primary: #7596C2;
+    --color-text: #434242;
+    --font-family-sans-serif: 'Open Sans', sans-serif;
+    --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    
+    --rgb-primary:117, 150, 194;
+    --rgb-text:66, 66, 66;
+
+    --fs-100: 16px;
+    --fs-200: 18px;
+    --fs-300: 22px;
+    --fs-400: 26px;
+    --fs-500: 30px;
+    --fs-600: 35px;
+    --fs-700: 42px;
+}
+
+body{
+    background:var(--color-primary)!important;
+}
+@media only screen and (max-width:880px) {
+    :root {
+        --fs-100: 14px;
+        --fs-200: 16px;
+        --fs-300: 20px;
+        --fs-400: 24px;
+        --fs-500: 28px;
+        --fs-600: 32px;
+        --fs-700: 38px;
+    }
+}
+
+.fs-100{
+    font-size: var(--fs-100);
+}
+.fs-200{
+    font-size: var(--fs-200);
+}
+.fs-300{
+    font-size: var(--fs-300);
+}
+.fs-400{
+    font-size: var(--fs-400);
+}
+.fs-500{
+    font-size: var(--fs-500);
+}
+.fs-600{
+    font-size: var(--fs-600);
+}
+.fs-100{
+    font-size: var(--fs-100);
+}
+
+.bgPrimary{
+    background:var(--color-primary)!important;
+}
+
+a,.nav-link{
+    color:var(--color-text)!important;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}

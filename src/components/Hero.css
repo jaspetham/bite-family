@@ -1,0 +1,38 @@
+#Hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owl-carousel,
+.owl-carousel .owl-stage-outer,
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item{
+    height: 100%;
+}
+
+.banner-img{
+    background-image: url('/public/assets/images/banner/banner1.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 20;
+}
+.banner-wrap .banner-img::after{
+    content:'';
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+}
+.banner-info{
+    text-align: center;
+}
