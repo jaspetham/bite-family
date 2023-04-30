@@ -38,38 +38,38 @@ function Header() {
             <div className='navWrap'>
                 <ul className='navLinks'>
                     <li>
-                        <a href="" className='nav-link active'>Home</a>
+                        <a href="#" className='nav-link active'>Home</a>
                     </li>
                     <li>
-                        <a href="" className='nav-link'>About Us</a>
+                        <a href="#" className='nav-link'>About Us</a>
                     </li>
                     <li>
-                        <a href="" className='nav-link'>Diet Plans</a>
+                        <a href="#" className='nav-link'>Diet Plans</a>
                     </li>
                     <li>
-                        <a href="" className='nav-link'>Pricing</a>
+                        <a href="#" className='nav-link'>Pricing</a>
                     </li>
                     <li>
-                        <a href="" className='nav-link'>FAQ</a>
+                        <a href="#" className='nav-link'>FAQ</a>
                     </li>
                     <li>
-                        <a href="" className='nav-link'>Contact Us</a>
+                        <a href="#" className='nav-link'>Contact Us</a>
                     </li>
                 </ul>
             </div>
             <ul className='socials'>
                 <li className="nav-link">
-                    <a href="" className='icon'>
+                    <a href="#" className='icon'>
                         <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="" className='icon'>
+                    <a href="#" className='icon'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="" className='icon'>
+                    <a href="#" className='icon'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>
