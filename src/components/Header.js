@@ -24,7 +24,7 @@ function Header() {
     return (
         <nav className={scrollPosition > 0 ? 'nav items-center scrolled' : 'nav items-center'}>
             <div className='imgBrand relative flex items-center'>
-                <a href="#">
+                <a>
                     <img src={'/assets/images/logo_dark.jpg'} alt='logo'/>
                 </a>            
             </div>
@@ -38,38 +38,38 @@ function Header() {
             <div className='navWrap'>
                 <ul className='navLinks'>
                     <li>
-                        <a href="#" className='nav-link active'>Home</a>
+                        <a className='nav-link active'>Home</a>
                     </li>
                     <li>
-                        <a href="#" className='nav-link'>About Us</a>
+                        <a className='nav-link'>About Us</a>
                     </li>
                     <li>
-                        <a href="#" className='nav-link'>Diet Plans</a>
+                        <a className='nav-link'>Diet Plans</a>
                     </li>
                     <li>
-                        <a href="#" className='nav-link'>Pricing</a>
+                        <a className='nav-link'>Pricing</a>
                     </li>
                     <li>
-                        <a href="#" className='nav-link'>FAQ</a>
+                        <a className='nav-link'>FAQ</a>
                     </li>
                     <li>
-                        <a href="#" className='nav-link'>Contact Us</a>
+                        <a className='nav-link'>Contact Us</a>
                     </li>
                 </ul>
             </div>
             <ul className='socials'>
                 <li className="nav-link">
-                    <a href="#" className='icon'>
+                    <a className='icon'>
                         <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="#" className='icon'>
+                    <a className='icon'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="#" className='icon'>
+                    <a className='icon'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>
