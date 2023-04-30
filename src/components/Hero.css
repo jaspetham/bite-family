@@ -14,7 +14,6 @@
 }
 
 .banner-img{
-    background-image: url('/public/assets/images/banner/banner1.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
