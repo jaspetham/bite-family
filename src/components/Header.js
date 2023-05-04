@@ -25,7 +25,7 @@ function Header() {
         <nav className={scrollPosition > 0 ? 'nav items-center scrolled' : 'nav items-center'}>
             <div className='imgBrand relative flex items-center'>
                 <a href="#Hero">
-                    <img src={'/assets/images/logo_dark.jpg'} alt='logo'/>
+                    <img src={'/assets/images/logo_white.png'} alt='logo'/>
                 </a>            
             </div>
             <div className='burgerWrap'>
