@@ -35,3 +35,8 @@
 .banner-info{
     text-align: center;
 }
+.owl-carousel .owl-item img{
+    max-height: 200px;
+    object-fit: contain;
+    margin:0 auto;
+}

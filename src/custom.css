@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'El Messiri Reg';
+    src: url('/public/assets/fonts/ElMessiri-Regular.ttf');
+}
+@font-face {
+    font-family: 'El Messiri SemiBold';
+    src: url('/public/assets/fonts/ElMessiri-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'El Messiri Bold';
+    src: url('/public/assets/fonts/ElMessiri-Bold.ttf');
+}
+@font-face {
+    font-family: 'Beleeza Regular';
+    src: url('/public/assets/fonts/Belleza-Regular.ttf');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -16,9 +33,9 @@ ul {
 :root {
     --color-primary: #7596C2;
     --color-text: #434242;
-    --font-family-sans-serif: 'Open Sans', sans-serif;
-    --font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    
+    --ff-reg: 'Beleeza Regular';
+    --ff-semi: 'El Messiri SemiBold';
+    --ff-bold: 'El Messiri Bold';
     --rgb-primary:117, 150, 194;
     --rgb-text:66, 66, 66;
 
@@ -33,6 +50,7 @@ ul {
 
 body{
     background:var(--color-primary)!important;
+    font-family: var(--ff-reg)!important;
 }
 @media only screen and (max-width:880px) {
     :root {
@@ -75,7 +93,17 @@ body{
 a,.nav-link{
     color:var(--color-text)!important;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: var(--ff-semi);
+}
+.font-bold{
+    font-family: var(--ff-bold);
+}
 
 h1,h2,h3,h4,h5,h6,p{
     margin:0;

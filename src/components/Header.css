@@ -47,6 +47,7 @@
 }
 .navLinks .nav-link{
     opacity: .6;
+    font-size: var(--fs-200);
 }
 .navLinks .nav-link:hover,.navLinks .nav-link.active{
     opacity: 1;
