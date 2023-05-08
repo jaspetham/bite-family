@@ -22,7 +22,7 @@ function Hero() {
                         <div className="banner-info">
                             <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
                             <div className="mt-3">
-                                <p className="fs-300">We keep you super healthy!</p>
+                                <p className="fs-500">We keep you super healthy!</p>
                             </div>
                         </div>
                     </div>

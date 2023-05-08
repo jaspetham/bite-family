@@ -1,14 +1,31 @@
 import React from 'react'
 import './About.css'
+import Image from 'react-bootstrap/Image'
+
+import banner2 from '../assets/banner2.jpg'
 
 function About() {
   return (
-    <section id='About' className='h-screen text-white p-10'>
-        <div className="w-full text-center flex flex-col gap-5">
-            <h1>Primary Bold text</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aliquam. Amet nostrum autem commodi, itaque quibusdam architecto ut vitae ea aperiam assumenda aspernatur expedita ab, eum et a. Voluptatum nemo quo totam necessitatibus temporibus mollitia ad suscipit ut quae assumenda. Incidunt sint quibusdam, illum corporis amet, necessitatibus eaque quis cum reiciendis fugiat velit quo, voluptatem distinctio nam. Labore sint earum hic natus? Voluptatibus recusandae consequuntur, earum, possimus enim ducimus et, provident blanditiis ut quisquam dignissimos amet vel quaerat repellendus quas quia ipsum asperiores esse deserunt. Quis ea suscipit, dolore consectetur cumque autem earum dignissimos atque ex est hic facilis blanditiis.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aliquam. Amet nostrum autem commodi, itaque quibusdam architecto ut vitae ea aperiam assumenda aspernatur expedita ab, eum et a. Voluptatum nemo quo totam necessitatibus temporibus mollitia ad suscipit ut quae assumenda. Incidunt sint quibusdam, illum corporis amet, necessitatibus eaque quis cum reiciendis fugiat velit quo, voluptatem distinctio nam. Labore sint earum hic natus? Voluptatibus recusandae consequuntur, earum, possimus enim ducimus et, provident blanditiis ut quisquam dignissimos amet vel quaerat repellendus quas quia ipsum asperiores esse deserunt. Quis ea suscipit, dolore consectetur cumque autem earum dignissimos atque ex est hic facilis blanditiis.</p>
+    <section id='About' className='section-gap'>
+        <div className="section-divider">
+          <div className="row mx-0 gap-3 flex-nowrap">
+            <div className="col-md-6 col-12">
+              <div className="flex items-center h-full">
+                <div className="w-full flex flex-col gap-3">
+                    <h1 className='fs-600 mb-3'><span className='title-underline'>History</span></h1>
+                    <h4 className='fs-400'>WE MAKING YOUR BRAND SHINE</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus tenetur rerum corporis culpa labore voluptate aspernatur eum, sequi officia eligendi, quos alias nemo voluptas. At.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est ut labore? Tempora odit iusto eius similique in, quasi, veritatis sapiente at, eaque inventore quibusdam.</p>
+                    <a href="#About" className="btn-classic btn-100 fs-200 mt-3">Our Works</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-12">
+              <Image className='object-cover' fluid src={banner2}/>
+            </div>
+          </div>
         </div>
+
     </section>
   )
 }

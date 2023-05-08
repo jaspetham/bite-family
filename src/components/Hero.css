@@ -36,7 +36,7 @@
     text-align: center;
 }
 .owl-carousel .owl-item img{
-    max-height: 200px;
+    max-height: 300px;
     object-fit: contain;
     margin:0 auto;
 }
