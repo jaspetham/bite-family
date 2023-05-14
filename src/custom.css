@@ -91,7 +91,7 @@ body{
     background:var(--color-primary)!important;
 }
 
-a,.nav-link{
+a,.nav-link,.clr-text{
     color:var(--color-text)!important;
 }
 h1,
@@ -114,10 +114,7 @@ h1,h2,h3,h4,h5,h6,p{
     max-width: var(--width-limit);
     margin:0 auto;
 }
-.title-underline{
-    position: relative;
-}
-.title-underline::after{
+.title-underline::after,.title-underline-primary::after{
     content:'';
     position: absolute;
     bottom:0;
@@ -125,6 +122,9 @@ h1,h2,h3,h4,h5,h6,p{
     width: 60%;
     height: 3px;
     background: white;
+}
+.title-underline-primary::after{
+    background: var(--color-primary);
 }
 a{
     text-decoration: none!important;
