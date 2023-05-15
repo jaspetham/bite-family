@@ -10,7 +10,7 @@ function Plan(props) {
         <div className="plan flex text-white">
             <div className="plan-pic relative" style={{backgroundImage:`url(${image})`}}>
                 <div className="plan-info">
-                    <div className="flex flex-col justify-center gap-3">
+                    <div className="h-full flex flex-col justify-center gap-3 text-justify">
                         <h1 className="fs-300">{title}</h1>
                         <p className='fs-200'>{description}</p>
                     </div>
