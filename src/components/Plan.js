@@ -15,22 +15,22 @@ function Plan(props) {
                         <p className='fs-200'>{description}</p>
                     </div>
                 </div>
-            </div>
-            <div className="plan-links flex flex-col gap-3">
-                <div className="plan-link">
-                    <a href="/" className='text-white'>
-                        <FontAwesomeIcon icon={faDumbbell}/>
-                    </a>
-                </div>
-                <div className="plan-link">
-                    <a href="/" className='text-white'>
-                        <FontAwesomeIcon icon={faHeart}/>
-                    </a>
-                </div>
-                <div className="plan-link">
-                    <a href="/" className='text-white'>
-                        <FontAwesomeIcon icon={faHeartPulse}/>
-                    </a>
+                <div className="plan-links flex flex-col gap-3">
+                    <div className="plan-link">
+                        <a href="/" className='text-white'>
+                            <FontAwesomeIcon icon={faDumbbell}/>
+                        </a>
+                    </div>
+                    <div className="plan-link">
+                        <a href="/" className='text-white'>
+                            <FontAwesomeIcon icon={faHeart}/>
+                        </a>
+                    </div>
+                    <div className="plan-link">
+                        <a href="/" className='text-white'>
+                            <FontAwesomeIcon icon={faHeartPulse}/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

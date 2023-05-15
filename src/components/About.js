@@ -9,7 +9,7 @@ function About() {
   return (
     <section id='About' className='section-gap'>
         <div className="section-divider">
-          <div className="row mx-0 gap-3 flex-nowrap">
+          <div className="row mx-0 gap-3 flex-md-nowrap">
             <div className="col-md-6 col-12">
               <div className="flex items-center h-full">
                 <div className="w-full flex flex-col gap-3">
