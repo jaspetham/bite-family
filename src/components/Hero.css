@@ -35,6 +35,9 @@
 .banner-info{
     text-align: center;
 }
+.banner-info img{
+    height: clamp(100px,27vh,300px);
+}
 .owl-carousel .owl-item img{
     max-height: 300px;
     object-fit: contain;

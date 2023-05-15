@@ -1,8 +1,7 @@
 .plan-pic{
-    margin:0 auto;
-    width: 300px;
+    width: 100%;
     min-height: 400px;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -23,9 +22,6 @@
     opacity: 1;
 }
 .plan-links{
-    position: absolute;
-    right: -48px;
-    top: 0;
     background:var(--color-primary);
     padding:1rem 0.5rem;
     height: fit-content;
