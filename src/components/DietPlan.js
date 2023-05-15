@@ -4,8 +4,8 @@ import Title from './Title'
 import Plan from './Plan'
 
 import dietPlan1 from '../assets/diet-plan1.svg'
-import dietPlan2 from '../assets/diet-plan3.svg'
-import dietPlan3 from '../assets/diet-plan1.svg'
+import dietPlan2 from '../assets/diet-plan2.svg'
+import dietPlan3 from '../assets/diet-plan3.svg'
 
 function DietPlan() {
   let plansInfo = [
@@ -16,13 +16,13 @@ function DietPlan() {
     },
     {
       image:dietPlan2,
-      title:'BITE’s Gout-Aid Diet',
-      description:'Gout is the bane of many Malaysians and we know that the best way to combat gout is through a diet tailored specifically to combat gout.'
+      title:'BITE’s Carb-Safe Diet',
+      description:'Highly refined carbs are not the best for you and your body as they can increase risks for heart disease, diabetes, stroke and more.'
     },
     {
       image:dietPlan3,
-      title:'BITE’s Carb-Safe Diet',
-      description:'Highly refined carbs are not the best for you and your body as they can increase risks for heart disease, diabetes, stroke and more.'
+      title:'BITE’s Gout-Aid Diet',
+      description:'Gout is the bane of many Malaysians and we know that the best way to combat gout is through a diet tailored specifically to combat gout.'
     },
   ]
   return (
