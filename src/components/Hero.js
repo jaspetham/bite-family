@@ -8,6 +8,11 @@ import Image from 'react-bootstrap/Image'
 import banner1 from '../assets/banner1.jpg'
 import banner2 from '../assets/banner2.jpg'
 
+import flag1 from '../assets/flags/malaysia.png';
+import flag2 from '../assets/flags/singapore.png';
+
+
+
 function Hero() {
     let options = {
         loop:false,
@@ -24,6 +29,10 @@ function Hero() {
                             <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
                             <div className="mt-3">
                                 <p className="fs-500">We keep you super healthy!</p>
+                                <div className="flex gap-1 mt-5">
+                                    <Image className='flag-img' fluid src={flag1}/>
+                                    <Image className='flag-img' fluid src={flag2}/>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -44,6 +44,10 @@
     margin:0 auto;
 }
 
+.flag-img{
+    height: 60px!important;
+}
+
 @media only screen and (max-width:880px) {
 .banner-info img {
         height: clamp(100px, 20vh, 120px);

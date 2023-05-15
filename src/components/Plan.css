@@ -33,3 +33,9 @@
 .plan-link:last-child{
     border:0;
 }
+
+@media only screen and (max-width:880px) {
+    .plan-pic{
+        min-height: 300px;
+    }
+}

@@ -7,7 +7,7 @@
     width: 100%;
     z-index: 9999;
     display: grid;
-    height: 95px;
+    height: 85px;
     grid-template-columns: 60px 1fr 150px;
     gap: 1rem;
     font-size: var(--fs-100);
@@ -83,8 +83,8 @@
     }
 
     .burger :is(.bar1,.bar2,.bar3){
-        width: 35px;
-        height: 5px;
+        width: 30px;
+        height: 3px;
         background-color: #333;
         margin: 6px 0;
         transition: 0.4s;

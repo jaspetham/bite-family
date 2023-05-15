@@ -1,0 +1,29 @@
+.philo-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background: var(--color-primary);
+    position: relative;
+    bottom:0;
+    width: 100%;
+    color:black;
+    border:2px solid white;
+    color:white;
+}
+.philo{
+    border-right:2px solid white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width:880px) {
+    .philo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .philo {
+        border-right: 0;
+        border-bottom: 2px solid white;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+}

@@ -1,14 +1,16 @@
 import React from 'react'
 import './About.css'
 import Image from 'react-bootstrap/Image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWandMagicSparkles, faHandshake, faUser, faHandSparkles, faPersonHalfDress } from '@fortawesome/free-solid-svg-icons';
 
 import banner2 from '../assets/banner2.jpg'
 import Title from './Title'
 
 function About() {
   return (
-    <section id='About' className='section-gap'>
-        <div className="section-divider">
+    <section id='About' className=''>
+        <div className="section-divider section-gap">
           <div className="row mx-0 gap-3 flex-md-nowrap">
             <div className="col-md-6 col-12">
               <div className="flex items-center h-full">
@@ -26,7 +28,28 @@ function About() {
             </div>
           </div>
         </div>
-
+        <div className="philo-grid">
+          <div className="philo flex gap-2 items-center flex-col">
+            <FontAwesomeIcon className='fs-400' icon={faUser} />
+            <span className='fs-300'>Our Client comes first</span>
+          </div>
+          <div className="philo flex gap-2 items-center flex-col">
+            <FontAwesomeIcon className='fs-400' icon={faPersonHalfDress} />
+            <span className='fs-300'>Every individual is different</span>
+          </div>
+          <div className="philo flex gap-2 items-center flex-col">
+            <FontAwesomeIcon className='fs-400' icon={faWandMagicSparkles} />
+            <span className='fs-300'>Absolute Transparency</span>
+          </div>
+          <div className="philo flex gap-2 items-center flex-col">
+            <FontAwesomeIcon className='fs-400' icon={faHandSparkles} />
+            <span className='fs-300'>Cleanliness & Sanitisation</span>
+          </div>
+          <div className="philo flex gap-2 items-center flex-col">
+            <FontAwesomeIcon className='fs-400' icon={faHandshake} />
+            <span className='fs-300'>No Upselling</span>
+          </div>
+        </div>
     </section>
   )
 }
