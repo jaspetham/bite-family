@@ -61,11 +61,11 @@ function Portfolio() {
         }
     ];
 
-    const updatePortfolio = () =>{
-        setPortfolios(imgs);
-        setFiltered(imgs);
-    }
     useEffect(()=>{
+        const updatePortfolio = () =>{
+            setPortfolios(imgs);
+            setFiltered(imgs);
+        }
         updatePortfolio();
     },[]);
 

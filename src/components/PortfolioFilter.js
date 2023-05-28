@@ -9,7 +9,7 @@ function PortfolioFilter({portfolios, setFiltered, activeCategory, setActiveCate
     }
     const filtered = portfolios.filter((portfolio) => portfolio.tag === activeCategory);
     setFiltered(filtered);
-  },[activeCategory])
+  },[activeCategory, portfolios, setFiltered])
   
   return (
     <div className="portfolio-filter">
