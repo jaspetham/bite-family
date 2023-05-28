@@ -22,26 +22,6 @@
     background: rgba(var(--rgb-primary),.5);
 }
 
-.service-parent:before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #d3d3d3;
-    position: absolute;
-    top: 50%;
-    left: 0;
-}
-.service-parent:after {
-    content: '';
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: #d3d3d3;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-}
 .service-card{
     padding:1rem 0;
 }
