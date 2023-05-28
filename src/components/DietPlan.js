@@ -33,8 +33,8 @@ function DietPlan() {
                 <h4 className='fs-400'>Lorem ipsum dolor sit amet consectetur adipisicing praesentium nulla quod sequi reiciendis.</h4>
                 <div className="plans-wrap mt-3">
                     <div className="row mx-0 gap-y-5 flex-md-nowrap">
-                      {plansInfo.map((plan) =>{
-                        return (<div className="col-12 col-md-4">
+                      {plansInfo.map((plan, index) =>{
+                        return (<div key={index} className="col-12 col-md-4">
                           <Plan image={plan.image} title={plan.title} description={plan.description}/>
                         </div>)
                       })}
