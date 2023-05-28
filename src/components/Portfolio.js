@@ -61,14 +61,14 @@ function Portfolio() {
         }
     ];
 
-    useEffect(()=>{
-        runFilter();
-    },[]);
-
-    const runFilter = () =>{
+    const updatePortfolio = () =>{
         setPortfolios(imgs);
         setFiltered(imgs);
     }
+    useEffect(()=>{
+        updatePortfolio();
+    },[]);
+
     return (
         <section id="Portfolio" className='bg-white clr-text section-gap'>
             <div className="section-divider px-3">
