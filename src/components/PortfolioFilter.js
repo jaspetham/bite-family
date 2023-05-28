@@ -7,12 +7,7 @@ function PortfolioFilter({portfolios, setFiltered, activeCategory, setActiveCate
       setFiltered(portfolios);
       return;
     }
-    const filtered = portfolios.filter((portfolio) =>{
-      var tag = portfolio.tag;
-      if(tag === activeCategory){
-        return portfolio
-      }
-    });
+    const filtered = portfolios.filter((portfolio) => portfolio.tag === activeCategory);
     setFiltered(filtered);
   },[activeCategory])
   
