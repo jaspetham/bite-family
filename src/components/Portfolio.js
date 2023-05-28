@@ -4,7 +4,6 @@ import Title from './Title'
 import PortfolioImg from './PortfolioImg';
 import PortfolioFilter from './PortfolioFilter';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Masonry } from 'react-plock';
 
 function Portfolio() {
     const [portfolios, setPortfolios] = useState([]);
