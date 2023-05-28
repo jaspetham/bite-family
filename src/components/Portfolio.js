@@ -67,7 +67,7 @@ function Portfolio() {
             setFiltered(imgs);
         }
         updatePortfolio();
-    },[]);
+    },[imgs]);
 
     return (
         <section id="Portfolio" className='bg-white clr-text section-gap'>
