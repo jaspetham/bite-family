@@ -9,65 +9,61 @@ function Portfolio() {
     const [portfolios, setPortfolios] = useState([]);
     const [filtered, setFiltered] = useState([]);
     const [activeCategory, setActiveCategory] = useState(0);
-
-    const imgs = [
-        {
-            title:"The Lazy Artist Gallery",
-            subtitle:"lorem10",
-            tag:1,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/1.jpg?raw=true"
-        },
-        {
-            title:"Daria Shevtsova",
-            subtitle:"lorem10",
-            tag:2,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/2.jpg?raw=true"
-        },
-        {
-            title:"Kasuma",
-            subtitle:"lorem10",
-            tag:3,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/3.jpg?raw=true"
-        },
-        {
-            title:"Dominika Roseclay",
-            subtitle:"lorem10",
-            tag:4,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/4.jpg?raw=true"
-        },
-        {
-            title:"Scott Webb",
-            subtitle:"lorem10",
-            tag:4,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/5.jpg?raw=true"
-        },
-        {
-            title:"Jeffrey Czum",
-            subtitle:"lorem10",
-            tag:1,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/6.jpg?raw=true"
-        },
-        {
-            title:"Dominika Roseclay",
-            subtitle:"lorem10",
-            tag:2,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/7.jpg?raw=true"
-        },
-        {
-            title:"Valeria Boltneva",
-            subtitle:"lorem10",
-            tag:3,
-            src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/8.jpg?raw=true"
-        }
-    ];
-
+    
     useEffect(()=>{
-        const updatePortfolio = () =>{
-            setPortfolios(imgs);
-            setFiltered(imgs);
-        }
-        updatePortfolio();
-    },[imgs]);
+        const imgs = [
+            {
+                title:"The Lazy Artist Gallery",
+                subtitle:"lorem10",
+                tag:1,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/1.jpg?raw=true"
+            },
+            {
+                title:"Daria Shevtsova",
+                subtitle:"lorem10",
+                tag:2,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/2.jpg?raw=true"
+            },
+            {
+                title:"Kasuma",
+                subtitle:"lorem10",
+                tag:3,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/3.jpg?raw=true"
+            },
+            {
+                title:"Dominika Roseclay",
+                subtitle:"lorem10",
+                tag:4,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/4.jpg?raw=true"
+            },
+            {
+                title:"Scott Webb",
+                subtitle:"lorem10",
+                tag:4,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/5.jpg?raw=true"
+            },
+            {
+                title:"Jeffrey Czum",
+                subtitle:"lorem10",
+                tag:1,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/6.jpg?raw=true"
+            },
+            {
+                title:"Dominika Roseclay",
+                subtitle:"lorem10",
+                tag:2,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/7.jpg?raw=true"
+            },
+            {
+                title:"Valeria Boltneva",
+                subtitle:"lorem10",
+                tag:3,
+                src:"https://github.com/OlgaKoplik/CodePen/blob/master/filterGallery/8.jpg?raw=true"
+            }
+        ];
+        setPortfolios(imgs);
+        setFiltered(imgs);
+    },[]);
 
     return (
         <section id="Portfolio" className='bg-white clr-text section-gap'>
