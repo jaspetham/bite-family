@@ -33,6 +33,7 @@ function Team() {
                   <div className="team">
                     <img
                       key={i}
+                      alt={team.name}
                       src={team.image}
                     />
                     <div className="team-detail p-3 text-white">
