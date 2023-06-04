@@ -46,6 +46,7 @@ ul {
     --fs-500: 30px;
     --fs-600: 35px;
     --fs-700: 42px;
+    --fs-800: 60px;
 
     --width-limit:1240px;
 }
@@ -56,6 +57,15 @@ body{
     font-size: var(--fs-200)!important;
     color: white!important;
 }
+.ff-reg{
+    font-family: var(--ff-reg);
+}
+.ff-semi{
+    font-family: var(--ff-semi);
+}
+.ff-bold{
+    font-family: var(--ff-bold);
+}
 @media only screen and (max-width:880px) {
     :root {
         --fs-100: 14px;
@@ -65,6 +75,7 @@ body{
         --fs-500: 28px;
         --fs-600: 32px;
         --fs-700: 38px;
+        --fs-800: 54px;
     }
 }
 
@@ -85,6 +96,12 @@ body{
 }
 .fs-600{
     font-size: var(--fs-600)!important;
+}
+.fs-700{
+    font-size: var(--fs-700)!important;
+}
+.fs-800{
+    font-size: var(--fs-800)!important;
 }
 
 .bgPrimary{
@@ -143,7 +160,14 @@ a{
     text-transform: uppercase;
     line-height: 1;
 }
-
+.btn-classic.color{
+    border:3px solid var(--color-primary);
+    transition: background-color .25s ease-out;
+}
+.btn-classic.color:hover{
+    background-color: var(--color-primary);
+    color:white!important;
+}
 .btn-100{
     padding:0.75rem 0.75rem;
 }

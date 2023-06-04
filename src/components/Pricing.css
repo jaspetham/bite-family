@@ -1,0 +1,8 @@
+.currency{
+    align-items: top;
+    position: relative;
+    top:10px;
+}
+.plan-title{
+    min-height: 80px;
+}

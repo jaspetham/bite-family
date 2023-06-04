@@ -4,6 +4,8 @@ import About from './components/About';
 import DietPlan from './components/DietPlan';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
+import Pricing from './components/Pricing';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <DietPlan/>
       <Services/>
       <Portfolio/>
+      <Pricing/>
+      <Team/>
     </div>
   );
 }
