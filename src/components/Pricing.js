@@ -57,8 +57,8 @@ function Pricing() {
                     <div className="row">
                         {planInfos.map((plan,index) =>{
                             return(
-                                <div className="col-md-4 col-12">
-                                    <div key={index} className="plan text-center bg-white rounded-2 clr-text p-4">
+                                <div key={index} className="col-md-4 col-12">
+                                    <div className="plan text-center bg-white rounded-2 clr-text p-4">
                                         <div className="plan-title flex flex-col gap-2 justify-center text-uppercase">
                                             {plan.isRecommend ? <FontAwesomeIcon className='fs-100' icon={faStar}/> : ''}
                                             <h2 className="fs-300">{plan.title}</h2>

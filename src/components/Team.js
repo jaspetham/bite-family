@@ -29,10 +29,9 @@ function Team() {
           <Title title={'Meet Our Team'} primaryBg={true}/>
             <div className="row">
               {teams.map((team, i) => (
-                <div className="col-md-4 col-12">
+                <div key={i} className="col-md-4 col-12">
                   <div className="team">
                     <img
-                      key={i}
                       alt={team.name}
                       src={team.image}
                     />

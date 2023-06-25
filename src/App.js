@@ -24,7 +24,6 @@ function App() {
       <Pricing/>
       <Team/>
       <Testimonial/>
-      <Map/>
     </div>
   );
 }
