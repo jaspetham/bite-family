@@ -89,7 +89,7 @@ function Portfolio() {
                     >
                         <AnimatePresence>
                             <ResponsiveMasonry
-                                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+                                columnsCountBreakPoints={{350: 1, 750: 2, 900: 4}}
                             >
                                 <Masonry columnsCount={4}>
                                     {filtered.map((img, index)=>{

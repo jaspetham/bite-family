@@ -1,8 +1,7 @@
 import React from 'react'
 import './Hero.css';
 import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 import Image from 'react-bootstrap/Image'
 
 import banner1 from '../assets/banner1.jpg'

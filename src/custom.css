@@ -32,6 +32,7 @@ ul {
 }
 :root {
     --color-primary: #7596C2;
+    --color-dots:#d6fff9;
     --color-text: #434242;
     --ff-reg: 'Beleeza Regular';
     --ff-semi: 'El Messiri SemiBold';
@@ -173,4 +174,21 @@ a{
 }
 .btn-200{
     padding:1rem 1rem;
+}
+.owl-theme .owl-dots{
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    bottom:30px;
+    margin:0;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background:var(--color-dots)!important;
+    opacity: .5;
+    width: 12px!important;
+    height: 12px!important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span{
+    opacity: 1!important;
 }
