@@ -10,6 +10,7 @@ import Testimonial from './components/Testimonial';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Pricing/>
       <Team/>
       <Testimonial/>
+      <Footer/>
     </div>
   );
 }

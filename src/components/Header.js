@@ -41,19 +41,25 @@ function Header() {
                         <a href="#Hero" className='nav-link active'>Home</a>
                     </li>
                     <li>
-                        <a href="#Hero" className='nav-link'>About Us</a>
+                        <a href="#History" className='nav-link'>History</a>
                     </li>
                     <li>
-                        <a href="#Hero" className='nav-link'>Diet Plans</a>
+                        <a href="#Diet" className='nav-link'>Diet Plans</a>
                     </li>
                     <li>
-                        <a href="#Hero" className='nav-link'>Pricing</a>
+                        <a href="#Services" className='nav-link'>Services</a>
                     </li>
                     <li>
-                        <a href="#Hero" className='nav-link'>FAQ</a>
+                        <a href="#Hero" className='nav-link'>Portfolio</a>
                     </li>
                     <li>
-                        <a href="#Hero" className='nav-link'>Contact Us</a>
+                        <a href="#Pricing" className='nav-link'>Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#Team" className='nav-link'>Team</a>
+                    </li>
+                    <li>
+                        <a href="#Testimonial" className='nav-link'>Testimonial</a>
                     </li>
                 </ul>
             </div>
