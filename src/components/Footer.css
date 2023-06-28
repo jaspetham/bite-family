@@ -57,6 +57,7 @@ footer a{
 .footer-img{
     width: clamp(100px,25vh,200px);
     height: clamp(100px,25vh,200px);
+    object-fit: cover;
 }
 
 /* Footer Right */
