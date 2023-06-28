@@ -62,6 +62,23 @@ function Header() {
                         <a href="#Testimonial" className='nav-link'>Testimonial</a>
                     </li>
                 </ul>
+                <ul className='socials mobile'>
+                    <li className="nav-link">
+                        <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily" className='icon'>
+                            <FontAwesomeIcon icon={faFacebookF} />
+                        </a>
+                    </li>
+                    <li className="nav-link">
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mybitefamily/" className='icon'>
+                            <FontAwesomeIcon icon={faInstagram} />
+                        </a>
+                    </li>
+                    <li className="nav-link">
+                        <a target="_blank" rel="noreferrer" href="https://wa.me/+60122279967" className='icon'>
+                            <FontAwesomeIcon icon={faWhatsapp} />
+                        </a>
+                    </li>
+                </ul>
             </div>
             <ul className='socials'>
                 <li className="nav-link">
