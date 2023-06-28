@@ -36,7 +36,6 @@ footer a{
 .footer-distributed .footer-center p {
     display: inline-block;
     color: #ffffff;
-    font-weight: 400;
     vertical-align: middle;
     margin: 0;
 }
@@ -57,7 +56,9 @@ footer a{
 .footer-img{
     width: clamp(100px,25vh,200px);
     height: clamp(100px,25vh,200px);
-    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Footer Right */
@@ -71,8 +72,8 @@ footer a{
 
 @media (max-width: 880px) {
     .footer-img {
-        width: clamp(100px, 25vh, 120px);
-        height: clamp(100px, 25vh, 120px);
+        width: clamp(100px, 25vh, 150px);
+        height: clamp(100px, 25vh, 150px);
     }
     .footer-left,.footer-right,.footer-center{
         display: flex!important;

@@ -43,4 +43,10 @@
     .plan-pic{
         min-height: 300px;
     }
+    .plan-wrapper > .row{
+        gap: 1rem;
+    }
+    .scale-90{
+        transform: scale(1)!important;
+    }
 }

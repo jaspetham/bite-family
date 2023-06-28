@@ -14,31 +14,31 @@ function Footer() {
         <div className="col"></div>
         <div className="col-12 col-lg-4">
           <div className="footer-left flex flex-col ff-bold">
-            <Image className='footer-img' fluid src={'/assets/images/logo_white_fam.svg'}/>
-            <p className="footer-links flex gap-2 items-center my-3">
+            <div className='footer-img' style={{ backgroundImage:`url(/assets/images/logo_white_fam.svg)`}}></div>
+            <div className="footer-links flex gap-2 items-center my-3">
               <p className='flex gap-2 items-center'>Malaysia <Image height={20} width={20} fluid src={flag1}/></p>
               <p className='flex gap-2 items-center'>Singapore <Image height={20} width={20} fluid src={flag2}/></p>
-            </p>
+            </div>
             <p className="footer-company-name">Bite Family © 2023</p>
             </div>
         </div>
         <div className="col-12 col-lg-4">
-          <div className="footer-center flex flex-col gap-3">
-            <p className="footer-company-about">
+          <div className="footer-center flex flex-col gap-3 font-normal">
+            <div className="footer-company-about">
               <span className='fs-200 ff-bold'>About the company</span>
-              Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-            </p>
+              <p className='fs-100'>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+            </div>
             <div className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faMapMarkerAlt}/>
-              <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+              <p className='fs-100'><span>444 S. Cedros Ave</span> Solana Beach, California</p>
             </div>
             <div className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faPhone}/>
-              <a href="mailto:support@company.com">+6012345678</a>
+              <a className='fs-100' href="mailto:support@company.com">+6012345678</a>
             </div>
             <div className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faEnvelope}/>
-              <a href="mailto:support@company.com">support@company.com</a>
+              <a className='fs-100' href="mailto:support@company.com">support@company.com</a>
             </div>
             <div className="footer-icons flex gap-3">
               <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily">
