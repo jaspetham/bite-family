@@ -52,10 +52,6 @@ function Hero() {
                 </div>
                 <div className='banner-wrap h-full'>
                     <div className="banner-img bgImgCover h-full" style={{backgroundImage:`url(${banner2})`}}>
-                        {/* <div className="banner-info">
-                            <h1 className="fs-700">Welcome to Bite Family</h1>
-                            <p className="fs-300">We keep you super healthy!</p>
-                        </div> */}
                         <div className="banner-info">
                             <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
                             <div className="mt-3">

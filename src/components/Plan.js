@@ -2,6 +2,7 @@ import React from 'react'
 import './Plan.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell, faHeart, faHeartPulse } from '@fortawesome/free-solid-svg-icons';
+import pdf from '../assets/info.pdf'
 
 function Plan(props) {
     let { image, title, description } = props;
@@ -18,17 +19,17 @@ function Plan(props) {
             </div>
             <div className="plan-links flex flex-col gap-3">
                 <div className="plan-link">
-                    <a href="/" className='text-white'>
+                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
                         <FontAwesomeIcon icon={faDumbbell}/>
                     </a>
                 </div>
                 <div className="plan-link">
-                    <a href="/" className='text-white'>
+                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
                         <FontAwesomeIcon icon={faHeart}/>
                     </a>
                 </div>
                 <div className="plan-link">
-                    <a href="/" className='text-white'>
+                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
                         <FontAwesomeIcon icon={faHeartPulse}/>
                     </a>
                 </div>
