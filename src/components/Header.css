@@ -102,7 +102,7 @@
     }
 
     .burger.change .bar1{
-        transform: translate(0, 11px) rotate(-45deg);
+        transform: translate(0, 7px) rotate(-45deg);
     }
     
     .burger.change .bar2 {
