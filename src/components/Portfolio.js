@@ -85,7 +85,7 @@ function Portfolio() {
                 <div className="portfolios-wrapper mt-4">
                     <motion.div 
                         layout 
-                        className="portfolios mt-4"
+                        className="portfolios"
                     >
                         <AnimatePresence>
                             <ResponsiveMasonry
