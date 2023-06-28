@@ -12,16 +12,11 @@ import flag2 from '../assets/flags/singapore.png';
 import chevronLeft from '../assets/icons/circle-chevron-left-solid.svg';
 import chevronRight from '../assets/icons/circle-chevron-right-solid.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowDown, faArrowLeft, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowLeft, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
 
 function Hero() {
-    const icon = () =>{
-        return(
-            <FontAwesomeIcon icon={faArrowLeft}/>
-        )
-    }
     let options = {
         loop:false,
         items:1,
