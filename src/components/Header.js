@@ -5,6 +5,7 @@ import { faFacebookF, faInstagram, faWhatsapp } from '@fortawesome/free-brands-s
 
 function Header() {
     const [scrollPosition, setScrollPosition] = useState(0);
+    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         function handleScroll() {
@@ -20,6 +21,7 @@ function Header() {
     const openToggle = (x) =>{
         x.classList.toggle("change");
         document.querySelector('.navWrap').classList.toggle('open');
+        setIsOpen(!isOpen);
     }
     return (
         <nav className={scrollPosition > 0 ? 'nav items-center scrolled' : 'nav items-center'}>
@@ -28,7 +30,7 @@ function Header() {
                     <img src={scrollPosition > 0 ? '/assets/images/logo_dark.svg' : '/assets/images/logo_white.svg'} alt='logo'/>
                 </a>            
             </div>
-            <div className='burgerWrap'>
+            <div className={isOpen ? 'burgerWrap isOpen' : 'burgerWrap'}>
                 <div className='burger' onClick={(event)=>{openToggle(event.currentTarget)}}>
                     <div className='bar1'></div>
                     <div className='bar2'></div>

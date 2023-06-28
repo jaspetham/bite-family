@@ -96,10 +96,6 @@
         transition: 0.4s;
     }
 
-    :is(.nav.scrolled .burger :is(.bar1, .bar2, .bar3)) {
-        background-color: #333;
-    }
-
     .burger.change .bar1{
         transform: translate(0, 7px) rotate(-45deg);
     }
@@ -128,6 +124,7 @@
         align-items: center;
         justify-content: center;
         transition: right .5s ease-in;
+        background: rgba(0, 0, 0, .3);
     }
 
     .navWrap.open{
@@ -136,5 +133,11 @@
 
     .navLinks {
         flex-direction: column;
+    }
+    .burgerWrap.isOpen :is(.bar1,.bar2,.bar3){
+        background-color: white!important;
+    }
+    :is(.nav.scrolled .burger :is(.bar1, .bar2, .bar3)) {
+        background-color: #333;
     }
 }

@@ -34,11 +34,11 @@ function Footer() {
             </div>
             <div className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faPhone}/>
-              <p><a href="mailto:support@company.com">+6012345678</a></p>
+              <a href="mailto:support@company.com">+6012345678</a>
             </div>
             <div className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faEnvelope}/>
-              <p><a href="mailto:support@company.com">support@company.com</a></p>
+              <a href="mailto:support@company.com">support@company.com</a>
             </div>
             <div className="footer-icons flex gap-3">
               <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily">
