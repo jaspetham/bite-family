@@ -41,13 +41,13 @@ function Footer() {
               <p><a href="mailto:support@company.com">support@company.com</a></p>
             </div>
             <div className="footer-icons flex gap-3">
-              <a href="#Footer">
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily">
                 <FontAwesomeIcon className='icon fs-200' icon={faFacebookF}/>
               </a>
-              <a href="#Footer">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mybitefamily/">
                 <FontAwesomeIcon className='icon fs-200' icon={faInstagram}/>
               </a>
-              <a href="#Footer">
+              <a target="_blank" rel="noreferrer" href="https://wa.me/+60122279967">
                 <FontAwesomeIcon className='icon fs-200' icon={faWhatsapp}/>
               </a>
             </div>
