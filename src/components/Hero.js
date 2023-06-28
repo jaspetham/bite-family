@@ -12,7 +12,7 @@ import flag2 from '../assets/flags/singapore.png';
 import chevronLeft from '../assets/icons/circle-chevron-left-solid.svg';
 import chevronRight from '../assets/icons/circle-chevron-right-solid.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
 
