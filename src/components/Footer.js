@@ -12,7 +12,7 @@ function Footer() {
         <div className="col"></div>
         <div className="col-12 col-lg-4">
           <div className="footer-left flex flex-col">
-            <Image height={200} width={200} fluid src={'/assets/images/logo_white_fam.svg'}/>
+            <Image className='footer-img' fluid src={'/assets/images/logo_white_fam.svg'}/>
             <p className="footer-links flex gap-2 items-center my-3">
               <a href="#Home">Home</a>
               <a href="#About">History</a>

@@ -54,6 +54,11 @@ footer a{
     content: none;
 }
 
+.footer-img{
+    width: clamp(100px,25vh,200px);
+    height: clamp(100px,25vh,200px);
+}
+
 /* Footer Right */
 
 .footer-distributed .footer-company-about span {
