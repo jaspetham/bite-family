@@ -71,8 +71,8 @@ footer a{
 
 @media (max-width: 880px) {
     .footer-img {
-        width: clamp(100px, 25vh, 150px);
-        height: clamp(100px, 25vh, 150px);
+        width: clamp(100px, 25vh, 120px);
+        height: clamp(100px, 25vh, 120px);
     }
     .footer-left,.footer-right,.footer-center{
         display: flex!important;
