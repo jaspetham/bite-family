@@ -65,17 +65,17 @@ function Header() {
             </div>
             <ul className='socials'>
                 <li className="nav-link">
-                    <a target="_blank" rel="noopener" href="https://www.facebook.com/MYBiteFamily" className='icon'>
+                    <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily" className='icon'>
                         <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a target="_blank" rel="noopener" href="https://www.instagram.com/mybitefamily/" className='icon'>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mybitefamily/" className='icon'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a target="_blank" rel="noopener" href="https://wa.me/+60122279967" className='icon'>
+                    <a target="_blank" rel="noreferrer" href="https://wa.me/+60122279967" className='icon'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>
