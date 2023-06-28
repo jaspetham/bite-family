@@ -1,11 +1,10 @@
 import React from 'react'
 import './Plan.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDumbbell, faHeart, faHeartPulse } from '@fortawesome/free-solid-svg-icons';
-import pdf from '../assets/info.pdf'
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 function Plan(props) {
-    let { image, title, description } = props;
+    let { image, title, description, pdfLink } = props;
 
     return (
         <div className="plan flex text-white">
@@ -19,18 +18,8 @@ function Plan(props) {
             </div>
             <div className="plan-links flex flex-col gap-3">
                 <div className="plan-link">
-                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
-                        <FontAwesomeIcon icon={faDumbbell}/>
-                    </a>
-                </div>
-                <div className="plan-link">
-                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
-                        <FontAwesomeIcon icon={faHeart}/>
-                    </a>
-                </div>
-                <div className="plan-link">
-                    <a href={pdf} target='_blank' rel="noreferrer" className='text-white'>
-                        <FontAwesomeIcon icon={faHeartPulse}/>
+                    <a href={pdfLink} target='_blank' rel="noreferrer" className=' fs-400 text-white'>
+                        <FontAwesomeIcon icon={faFilePdf}/>
                     </a>
                 </div>
             </div>

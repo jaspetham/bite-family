@@ -1,3 +1,6 @@
+.plan{
+    position: relative;
+}
 .plan-pic{
     width: 100%;
     min-height: 400px;
@@ -23,8 +26,10 @@
 }
 .plan-links{
     background:var(--color-primary);
-    padding:1rem 0.5rem;
+    padding:0.25rem 0.5rem;
     height: fit-content;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .plan-link{
     padding:0.25rem;
