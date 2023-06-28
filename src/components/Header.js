@@ -40,9 +40,9 @@ function Header() {
                     <li>
                         <a href="#Hero" className='nav-link active'>Home</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#History" className='nav-link'>History</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#Diet" className='nav-link'>Diet Plans</a>
                     </li>
@@ -55,9 +55,9 @@ function Header() {
                     <li>
                         <a href="#Pricing" className='nav-link'>Pricing</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#Team" className='nav-link'>Team</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#Testimonial" className='nav-link'>Testimonial</a>
                     </li>
@@ -65,17 +65,17 @@ function Header() {
             </div>
             <ul className='socials'>
                 <li className="nav-link">
-                    <a href="#Hero" className='icon'>
+                    <a target="_blank" href="https://www.facebook.com/MYBiteFamily" className='icon'>
                         <FontAwesomeIcon icon={faFacebookF} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="#Hero" className='icon'>
+                    <a target="_blank" href="https://www.instagram.com/mybitefamily/" className='icon'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </li>
                 <li className="nav-link">
-                    <a href="#Hero" className='icon'>
+                    <a  href="https://wa.me/+60122279967" className='icon'>
                         <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>

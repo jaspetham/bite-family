@@ -9,6 +9,8 @@ import banner2 from '../assets/banner2.jpg'
 
 import flag1 from '../assets/flags/malaysia.png';
 import flag2 from '../assets/flags/singapore.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -28,9 +30,15 @@ function Hero() {
                             <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
                             <div className="mt-3">
                                 <p className="fs-500">We keep you super healthy!</p>
-                                <div className="flex gap-1 mt-5">
-                                    <Image className='flag-img' fluid src={flag1}/>
-                                    <Image className='flag-img' fluid src={flag2}/>
+                                <div className="flex flex-col justify-center gap-3 mt-5">
+                                    <div className="flex justify-center gap-5">
+                                        <a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Store</a>
+                                        <a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Blog</a>
+                                    </div>
+                                    <div className="flex justify-center flag-pos">
+                                        <Image className='flag-img' fluid src={flag1}/>
+                                        <Image className='flag-img' fluid src={flag2}/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -38,13 +46,32 @@ function Hero() {
                 </div>
                 <div className='banner-wrap h-full'>
                     <div className="banner-img bgImgCover h-full" style={{backgroundImage:`url(${banner2})`}}>
-                        <div className="banner-info">
+                        {/* <div className="banner-info">
                             <h1 className="fs-700">Welcome to Bite Family</h1>
                             <p className="fs-300">We keep you super healthy!</p>
+                        </div> */}
+                        <div className="banner-info">
+                            <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
+                            <div className="mt-3">
+                                <p className="fs-500">We keep you super healthy!</p>
+                                <div className="flex flex-col justify-center gap-3 mt-5">
+                                    <div className="flex justify-center gap-5">
+                                        <a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Store</a>
+                                        <a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Blog</a>
+                                    </div>
+                                    <div className="flex justify-center flag-pos">
+                                        <Image className='flag-img' fluid src={flag1}/>
+                                        <Image className='flag-img' fluid src={flag2}/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </OwlCarousel>
+            <div className="arrow">
+                <FontAwesomeIcon className='fs-400' icon={faArrowDown}/>
+            </div>
         </section>
     )
 }

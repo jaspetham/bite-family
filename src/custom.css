@@ -192,3 +192,32 @@ a{
 .owl-theme .owl-dots .owl-dot:hover span{
     opacity: 1!important;
 }
+.arrow{
+    position: absolute;
+    z-index: 999;
+    bottom:5%;
+    animation: moveArrow 3s infinite;
+}
+
+.btn-transparent{
+    background: transparent;
+    color:white!important;
+    border: 1px solid white;
+    transition: all .25s ease;
+}
+
+.btn-transparent:hover{
+    background: white!important;
+    color:var(--color-text)!important;
+}
+@keyframes moveArrow {
+    0% {
+        bottom: 5%;
+    }
+    50%{
+        bottom: 0;
+    }
+    100%{
+        bottom: 5%;
+    }
+}
