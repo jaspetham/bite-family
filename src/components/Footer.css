@@ -21,7 +21,7 @@ footer a{
     padding: 0;
 }
 
-.footer-distributed .footer-links a:first-child::before{
+.footer-distributed .footer-links p:first-child::before{
     content:'';
 }
 
@@ -42,7 +42,7 @@ footer a{
 }
 
 
-.footer-distributed .footer-links a:before {
+.footer-distributed .footer-links p:before {
     content: "|";
     left: 0;
     color: #fff;

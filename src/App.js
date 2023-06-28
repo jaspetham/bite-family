@@ -7,10 +7,11 @@ import Portfolio from './components/Portfolio';
 import Pricing from './components/Pricing';
 import Team from './components/Team';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
+import BackToTop from './components/BackToTop';
 
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Team/>
       <Testimonial/>
       <Footer/>
+      <BackToTop/>
     </div>
   );
 }
