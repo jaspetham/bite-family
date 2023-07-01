@@ -42,9 +42,6 @@ function Header() {
                     <li>
                         <a href="#Hero" className='nav-link active'>Home</a>
                     </li>
-                    {/* <li>
-                        <a href="#History" className='nav-link'>History</a>
-                    </li> */}
                     <li>
                         <a href="#Diet" className='nav-link'>Diet Plans</a>
                     </li>
@@ -57,9 +54,6 @@ function Header() {
                     <li>
                         <a href="#Pricing" className='nav-link'>Pricing</a>
                     </li>
-                    {/* <li>
-                        <a href="#Team" className='nav-link'>Team</a>
-                    </li> */}
                     <li>
                         <a href="#Testimonial" className='nav-link'>Testimonial</a>
                     </li>

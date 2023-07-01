@@ -35,7 +35,7 @@ function Hero() {
                         <div className="banner-info">
                             <Image fluid src={'/assets/images/logo_white_fam.svg'}/>
                             <div className="mt-3">
-                                <p className="fs-400">We keep you super healthy!</p>
+                                <p className="fs-400">Your Gourmet Health Journey Awaits!</p>
                                 <div className="flex flex-col justify-center gap-3 mt-5">
                                     <div className="flex justify-center gap-5">
                                         <a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Store</a>
@@ -45,6 +45,7 @@ function Hero() {
                                         <Image className='flag-img' fluid src={flag1}/>
                                         <Image className='flag-img' fluid src={flag2}/>
                                     </div>
+                                    <div className="flex justify-center"><a href="#About" className="btn-classic btn-transparent rounded-lg btn-hero fs-200 text-capitalize rounder-2xl">Contact Us</a></div>
                                 </div>
                             </div>
                         </div>

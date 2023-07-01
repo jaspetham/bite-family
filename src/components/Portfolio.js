@@ -78,7 +78,7 @@ function Portfolio() {
                 <div className="section-divider px-3">
                     <div className="mb-4">
                         <Title title={'Portfolio'} primaryBg={true}/>
-                        <h4 className='fs-400'>Lorem ipsum dolor sit amet consectetur adipisicing praesentium nulla quod sequi reiciendis.</h4>
+                        <h4 className='fs-400'>A Preview Of The Delicious Meals Crafted By Our Chefs!</h4>
                     </div>
                     <PortfolioFilter portfolios={portfolios} setFiltered={setFiltered} activeCategory={activeCategory} setActiveCategory={setActiveCategory}/>
                 </div>

@@ -5,7 +5,7 @@ import DietPlan from './components/DietPlan';
 import Services from './components/Services';
 import Portfolio from './components/Portfolio';
 import Pricing from './components/Pricing';
-import Team from './components/Team';
+import Stats from './components/Stats';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
@@ -23,7 +23,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Pricing/>
-      <Team/>
+      <Stats/>
       <Testimonial/>
       <Footer/>
       <BackToTop/>

@@ -17,9 +17,9 @@ function About() {
                 <div className="w-full flex flex-col gap-3">
                     <Title title={'History'} primaryBg={false}/>
                     <h4 className='fs-400'>WE MAKING YOUR BRAND SHINE</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus tenetur rerum corporis culpa labore voluptate aspernatur eum, sequi officia eligendi, quos alias nemo voluptas. At.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est ut labore? Tempora odit iusto eius similique in, quasi, veritatis sapiente at, eaque inventore quibusdam.</p>
-                    <a href="#About" className="btn-classic btn-100 fs-200 mt-3">Our Works</a>
+                    <p>Bite Family was founded in 2020 amidst the pandemic with a simple goal of addressing the region’s biggest health problems. It’s a company designed to help people stay healthy and achieve their goals.</p>
+                    <p>We believe that diet food should be gourmet and enjoyable and  have since developed guilt-free pizzas, lasagnas, pastas, breads and  more for less than 3 grams of carbs per serving amongst many  others.</p>
+                    <a href="#Portfolio" className="btn-classic btn-100 fs-200 mt-3">Our Works</a>
                 </div>
               </div>
             </div>

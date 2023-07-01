@@ -53,10 +53,15 @@ ul {
 }
 
 body{
-    background:var(--color-primary)!important;
+    background: black!important;
     font-family: var(--ff-reg)!important;
     font-size: var(--fs-200)!important;
     color: white!important;
+}
+#root{
+    background:var(--color-primary)!important;
+    max-width: 2000px;
+    margin:0 auto;
 }
 .ff-reg{
     font-family: var(--ff-reg);

@@ -8,41 +8,44 @@ import { faStar } from '@fortawesome/free-solid-svg-icons';
 function Pricing() {
     const planInfos = [
         {
-            title:'Basic',
-            price:'20',
+            title:'Healthy Eating',
+            subTitle:'Better Carbohydrates For A Better Life',
+            price:'65',
             isRecommend:false,
             benefits:[
-                'Full Access',
-                'Unlimited Pizza',
-                'Free Bear',
-                '2 free cookies'
+                '2-3 meals/ day (your requirements)',
+                '1x Free Consultancy Per Week',
+                'Free Dietary Advisory',
+                '10% Off On Our Ala-Carte Items'
             ],
             linkTitle:'Sign Up',
             linkHref:'#',
             isSmaller: true
         },
         {
-            title:'Basic',
-            price:'20',
+            title:'Ketogenic Diet',
+            subTitle:'Perfect For Rapid Weight Loss',
+            price:'65',
             isRecommend:true,
             benefits:[
-                'Full Access',
-                'Unlimited Pizza',
-                'Free Bear',
-                '2 free cookies'
+                '2-3 meals/ day (your requirements)',
+                '1x Free Consultancy Per Week',
+                'Free Dietary Advisory',
+                '10% Off On Our Ala-Carte Items'
             ],
             linkTitle:'Sign Up',
             linkHref:'#'
         },
         {
-            title:'Pro',
-            price:'30',
+            title:'Premium Diet',
+            subTitle:'A Luxurious Dieting Experience',
+            price:'120',
             isRecommend:false,
             benefits:[
-                'Full Access',
-                'Unlimited Pizza',
-                'Free Bear',
-                '2 free cookies'
+                '2-3 meals/ day (your requirements)',
+                '2x Free Consultancy Per Week',
+                'Free Dietary Advisory',
+                '15% Off On Our Ala-Carte Items'
             ],
             linkTitle:'Sign Up',
             linkHref:'#',
@@ -54,7 +57,6 @@ function Pricing() {
         <div className="section-divider px-3">
             <div className="flex flex-col gap-3">
                 <Title title={'Pricing'} primaryBg={false}/>
-                <h2 className="fs-300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, nesciunt?</h2>
                 <div className="plan-wrapper mt-5">
                     <div className="row">
                         {planInfos.map((plan,index) =>{
@@ -65,12 +67,14 @@ function Pricing() {
                                             <div className="plan-title flex flex-col gap-2 justify-center text-uppercase">
                                                 {plan.isRecommend ? <FontAwesomeIcon className='fs-100' icon={faStar}/> : ''}
                                                 <h2 className="fs-300">{plan.title}</h2>
-                                                {plan.isRecommend ? <h2 className='fs-100'>Recommend</h2> : ''}
+                                                {plan.isRecommend ? <h2 className='fs-100'>Best Seller</h2> : ''}
                                             </div>
                                             <hr />
                                             <div className="price ff-semi my-4">
-                                                <span className="fs-500 currency align-top">$</span>
+                                                <p className="ff-bold fs-200">{plan.subTitle}</p>
+                                                <span className="fs-500 currency align-top">RM</span>
                                                 <span className="fs-800">{plan.price}</span>
+                                                <span className="fs-300">/day</span>
                                             </div>
                                             <div className="flex flex-col gap-1 fs-200 ff-reg mb-5">
                                                 {plan.benefits.map((benefit,index) =>{

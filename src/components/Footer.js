@@ -26,20 +26,20 @@ function Footer() {
           <div className="footer-center flex flex-col gap-3 font-normal">
             <div className="footer-company-about">
               <span className='fs-200 ff-bold'>About the company</span>
-              <p className='fs-100'>Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+              <p className='fs-100'>Founded with the belief that gourmet dieting is the solution to a successful diet & health journey, Bite Family takes pride in crafting delicious meals that’s tailored for the individual.</p>
             </div>
-            <div className='info flex gap-2 items-center'>
+            <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/PhUNQq6irxjtFQiV7" className='info flex gap-2 items-center'>
               <FontAwesomeIcon className='icon fs-200' icon={faMapMarkerAlt}/>
-              <p className='fs-100'><span>444 S. Cedros Ave</span> Solana Beach, California</p>
-            </div>
-            <div className='info flex gap-2 items-center'>
+              <p className='fs-100'>Bite Family, Infinity Tower, Jalan SS 6/3, 47301, Petaling Jaya, Selangor</p>
+            </a>
+            <a className='info flex gap-2 items-center' target="_blank" rel="noreferrer" href="https://wa.me/+60122279967">
               <FontAwesomeIcon className='icon fs-200' icon={faPhone}/>
-              <a className='fs-100' href="mailto:support@company.com">+6012345678</a>
-            </div>
-            <div className='info flex gap-2 items-center'>
+              <p className='fs-100'>+6012 227 9967</p>
+            </a>
+            <a className='info flex gap-2 items-center' target="_blank" rel="noreferrer" href="mailto:support@company.com">
               <FontAwesomeIcon className='icon fs-200' icon={faEnvelope}/>
-              <a className='fs-100' href="mailto:support@company.com">support@company.com</a>
-            </div>
+              <p className='fs-100' >hi@bitefamily.my</p>
+            </a>
             <div className="footer-icons flex gap-3">
               <a target="_blank" rel="noreferrer" href="https://www.facebook.com/MYBiteFamily">
                 <FontAwesomeIcon className='icon fs-200' icon={faFacebookF}/>

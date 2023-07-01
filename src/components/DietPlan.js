@@ -35,7 +35,7 @@ function DietPlan() {
         <div className="section-divider px-3">
             <div className="flex flex-col gap-3">
                 <Title title={'Diet Plans'} primaryBg={true}/>
-                <h4 className='fs-400'>Lorem ipsum dolor sit amet consectetur adipisicing praesentium nulla quod sequi reiciendis.</h4>
+                <h4 className='fs-400'>Our Best Selling Diet Plans!</h4>
                 <div className="plans-wrap mt-3">
                     <div className="row mx-0 gap-y-5 flex-md-nowrap">
                       {plansInfo.map((plan, index) =>{
