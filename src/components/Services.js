@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css';
 import Title from './Title';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faPlateWheat, faSeedling, faUser, faUserTie } from '@fortawesome/free-solid-svg-icons';
 
 function Services() {
   return (
@@ -20,7 +20,7 @@ function Services() {
                                     <div className="col-12 col-md-6">
                                         <div className="service-card">
                                             <div className="flex gap-2">
-                                                <FontAwesomeIcon className='fs-400' icon={faLeaf}/>
+                                                <FontAwesomeIcon className='fs-400' icon={faUser}/>
                                                 <div className="card-details">
                                                     <h3 className="text-transform mb-1 fs-100">Tailored For You</h3>
                                                     <p>Your meals are tailored to your body’s needs head to toe. Each meal is perfectly calculated to meet your macro-nutrition to help you achieve your health goals. Adjusted weekly to your weight.</p>
@@ -31,7 +31,7 @@ function Services() {
                                     <div className="col-12 col-md-6">
                                         <div className="service-card">
                                             <div className="flex gap-2">
-                                                <FontAwesomeIcon className='fs-400' icon={faLeaf}/>
+                                                <FontAwesomeIcon className='fs-400' icon={faSeedling}/>
                                                 <div className="card-details">
                                                     <h3 className="text-transform mb-1 fs-100">Fresh Produce Delivered Fresh</h3>
                                                     <p>We only use produce purchased on the day we prepare your meals.The ingredient makes the dish and we believe that only the freshest ingredients should be in your meals.</p>
@@ -42,7 +42,7 @@ function Services() {
                                     <div className="col-12 col-md-6">
                                         <div className="service-card">
                                             <div className="flex gap-2">
-                                                <FontAwesomeIcon className='fs-400' icon={faLeaf}/>
+                                                <FontAwesomeIcon className='fs-400' icon={faPlateWheat}/>
                                                 <div className="card-details">
                                                     <h3 className="text-transform mb-1 fs-100">Fresh Meals, Fast, Never Frozen</h3>
                                                     <p>Every meal that leaves our kitchen are never frozen and are ready to eat within 1 to 2 minutes. Delicious meals, crafted with care and fast to reheat for a hassle-free day.</p>
@@ -53,7 +53,7 @@ function Services() {
                                     <div className="col-12 col-md-6">
                                         <div className="service-card">
                                             <div className="flex gap-2">
-                                                <FontAwesomeIcon className='fs-400' icon={faLeaf}/>
+                                                <FontAwesomeIcon className='fs-400' icon={faUserTie}/>
                                                 <div className="card-details">
                                                     <h3 className="text-transform mb-1 fs-100">Reachable Consultancy & Advisory</h3>
                                                     <p>Our professionals are available to you daily! We’ll be with you through your journey at every step and to help you with consultancy & advisory to keep you on track at every turn!</p>
